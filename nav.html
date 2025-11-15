@@ -1,0 +1,76 @@
+<style>
+  .site-nav {
+    background: #1e293b;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+  }
+  .nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .site-title {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .nav-links {
+    display: flex;
+    gap: 0.5rem;
+  }
+  .nav-link {
+    color: #cbd5e1;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: background 0.2s;
+  }
+  .nav-link:hover {
+    background: #334155;
+  }
+  .nav-link.active {
+    background: #2563eb;
+    color: white;
+  }
+</style>
+
+<nav class="site-nav">
+  <div class="nav-container">
+    <div class="site-title">Your Name</div>
+    <div class="nav-links" id="nav-links"></div>
+  </div>
+</nav>
+
+<script>
+  const pages = [
+    { file: 'index.html', title: 'Experience' },
+    { file: 'recommendations.html', title: 'Recommendations' },
+    { file: 'astrology.html', title: 'Astrology' },
+    { file: 'technical-bg.html', title: 'Technical' },
+    { file: 'artistic-bg.html', title: 'Artistic' },
+    { file: 'personal-dev.html', title: 'Personal Development' }
+  ];
+
+  const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+  const navLinksContainer = document.getElementById('nav-links');
+
+  pages.forEach(page => {
+    fetch(page.file, { method: 'HEAD' })
+      .then(response => {
+        if (response.ok) {
+          const link = document.createElement('a');
+          link.href = page.file;
+          link.textContent = page.title;
+          link.className = 'nav-link';
+          if (page.file === currentPage) {
+            link.classList.add('active');
+          }
+          navLinksContainer.appendChild(link);
+        }
+      })
+      .catch(() => {});
+  });
+</script>
