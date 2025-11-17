@@ -1,4 +1,4 @@
-baseURL = "https://<tu-usuario>.github.io/<tu-repo>/"
+baseURL = "https://santimator.github.io/santi-info/"
 languageCode = "en"
 title = "Santiago Moreno"
 # theme = ""  # vacío si usas tus propios layouts
