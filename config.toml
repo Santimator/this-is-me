@@ -1,7 +1,7 @@
 baseURL = "https://<tu-usuario>.github.io/<tu-repo>/"
 languageCode = "en"
 title = "Santiago Moreno"
-theme = ""  # vacío si usas tus propios layouts
+# theme = ""  # vacío si usas tus propios layouts
 
 [menu]
 
