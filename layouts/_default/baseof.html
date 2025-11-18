@@ -7,8 +7,8 @@
     <!-- Basic responsive meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Optional: global stylesheet -->
-    <link rel="stylesheet" href="/css/main.css">
+    <!-- Optional: global stylesheet (use relURL so it works on GitHub Pages subpaths) -->
+    <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
 </head>
 
 <body>
@@ -24,8 +24,8 @@
     <!-- Footer -->
     {{ partial "footer.html" . }}
 
-    <!-- Optional: global JS -->
-    <script src="/js/main.js"></script>
+    <!-- Optional: global JS (also via relURL for GH Pages compatibility) -->
+    <script src="{{ "js/main.js" | relURL }}"></script>
 
 </body>
 </html>
