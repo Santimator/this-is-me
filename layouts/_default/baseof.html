@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Compile SCSS entry via Hugo Pipes for cache-busted CSS -->
-    {{ $scss := resources.Get "scss/main.scss" | resources.ToCSS (dict "targetPath" "css/main.css" "outputStyle" "compressed") | resources.Fingerprint }}
+    {{ $scss := resources.Get "scss/main.scss" | css.Sass (dict "targetPath" "css/main.css" "outputStyle" "compressed") | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $scss.RelPermalink }}">
 </head>
 
