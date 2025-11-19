@@ -3,8 +3,9 @@
 
 .site-nav {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  gap: $space-2;
   padding: $space-3 $space-4;
   background: $color-nav-bg;
   box-shadow: $shadow-elevated;
@@ -18,6 +19,8 @@
   color: $color-nav-accent;
   text-decoration: none;
   transition: color 0.2s ease, transform 0.2s ease;
+  text-align: center;
+  width: 100%;
 
   &:hover,
   &:focus {
@@ -29,6 +32,8 @@
 .nav-menu {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 1.5rem;
   margin: 0;
   padding: 0;

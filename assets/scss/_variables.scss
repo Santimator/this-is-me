@@ -1,13 +1,13 @@
 // _variables.scss
 // Purpose: Global design tokens for dark theme.
 
-// Dark mode color palette
-$color-body-bg:    #020617; // Deep background for dark UI.
-$color-body-text:  #e5e7eb; // High-contrast text color.
-$color-nav-bg:     #020617; // Unified body/navbar tone.
-$color-nav-text:   #e5e7eb; // Nav text matches body text.
-$color-nav-accent: #4fd1c5; // Cyan accent for branding.
-$color-nav-hover:  #f97316; // Warm hover accent.
+// Forest-inspired palette
+$color-body-bg:    #081c12; // Deep forest green.
+$color-body-text:  #f6f0ce; // Bone/pale yellow text.
+$color-nav-bg:     #0b2618; // Slightly lighter forest band.
+$color-nav-text:   #f6f0ce; // Keep nav text bone colored.
+$color-nav-accent: #d8c47c; // Muted gold accent.
+$color-nav-hover:  #f2da9b; // Soft glow on hover.
 
 // Typography
 $font-body: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
