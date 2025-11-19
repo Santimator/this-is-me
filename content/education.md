@@ -2,15 +2,24 @@
 title: "Education"
 ---
 
-## Formal Degrees
-- **PhD in Ergonomics & Biomechanics** — University of Copenhagen *(in progress; emphasis on occupational safety analytics and predictive modeling).* 
-- **Master's in Bioinformatics** — Université de Lille *(focus on multivariate statistics for health sciences; thesis on motion capture datasets).* 
-- **Bachelor's in Sports Sciences** — Universidad Nacional de Colombia *(specialized in movement physiology and coaching methodologies).* 
+## Technical Education
 
-## Complementary Coursework
-- Certificate in **Occupational Epidemiology**, Karolinska Institutet — distance module completed in 2022 with a capstone project on shift work and circadian stress.
-- Micro-credential in **Data Visualization with R & ggplot2**, Coursera — ongoing; applying lessons to ergonomics dashboards.
+### Engineering Degree in Bioinformatics and Modelling — INSA de Lyon (2008–2014)
+Master-equivalent five-year program spanning biology, computer science, mathematics, modelling, and applied research.
 
-## Research Highlights
-- Co-authored three peer-reviewed articles on biomechanical modeling for cleaning workers, accepted in regional occupational health journals.
-- Presented findings at the **Nordic Conference on Musculoskeletal Disorders (2023)**, emphasizing actionable recommendations for unions.
+#### Detailed Technical Training from the Bioinformatics & Modelling Cycle (BIM)
+- **Mathematics:** linear algebra, PDEs, dynamical systems, game theory, genomics mathematics, introductory AI.
+- **Biology:** cell biology, biochemistry, genetics, crystallography, proteomics, phylogenetics, drug design, experiment design, MRI, COPASI network modelling.
+- **Computer Science:** C, C++, Python, R, MATLAB, MySQL, KNIME, computational biology, agent-based models, pharmacological & epidemiological models, UI design, servers & networking, FIJI image/sound processing.
+- **Statistics:** ANOVA, PCA, Bayesian statistics, Monte-Carlo methods, linear & non-linear regression.
+
+#### Additional University Modules
+- Coding & cryptography (pre-cycle focus).
+- Core engineering fundamentals (mathematics, physics, mechanics, chemistry).
+- International EURINSA program participation.
+
+## Artistic Education
+- *Content forthcoming.*
+
+## Other Education
+- *Content forthcoming.*

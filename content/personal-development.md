@@ -2,15 +2,11 @@
 title: "Personal Development"
 ---
 
-## Practices That Ground Me
-- **Somatic training**: 10-minute micro-sessions woven into workdays to reset posture, breathing, and attention.
-- **Mindfulness journaling**: Weekly prompts centered on gratitude, boundary-setting, and tracking energy highs/lows.
-
-## Learning Rituals
-1. **Quarterly learning sprint** — 4-week self-designed program; current topic: translating lab-grade motion analysis to low-resource workplaces.
-2. **Peer reflection pods** — Monthly video calls with ergonomics peers; each session ends with a tangible experiment to try before the next call.
-
-## Micro-goals in Progress
-- Publish a short explainer on biomechanical load for non-specialist audiences.
-- Develop a bilingual infographic kit that unions can adapt.
-- Mentor at least two undergraduate interns during upcoming field visits.
+## Self-Growth & Integrative Practices
+- **Family Constellations training (Svagito Liebermeister, 2021)**: experiential approach to systemic healing.
+- **Enneagram practice**: ongoing work with personality archetypes for self-observation.
+- **Taichi & Qigong training (INEF Madrid, 2022)**: cultivating balance, breath, and body awareness.
+- **Interpersonal communication**: strong facilitation and conflict-resolution skills across teams.
+- **Multidisciplinary bridge-building**: translate ideas between science, art, and technology circles.
+- **Ethics, spirituality, and emotional awareness**: continuous study of mind–body practices.
+- **Teaching & choreography background**: experience guiding groups and crafting human dynamics.

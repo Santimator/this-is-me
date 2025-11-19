@@ -2,18 +2,32 @@
 title: "The Artist"
 ---
 
-## Visual Experiments
-![Ink sketch of contortionist hands](https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80)
-*Hand study exploring tendon tension lines inspired by cleaner postures.*
+## Theatre
+- **Don Claudio** in *¡Sublime decisión!* — Nómadas Theatre Group, INSA Lyon (2008–2009).
+- **Narrator** in a French adaptation of *1984* for the INSA Ethics Department (2013).
 
-![Collage of stars overlaying an urban rooftop](https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=900&q=80)
-*Mixed-media reference for future projection mapping piece titled "Night Shift".*
+## Music
+- Clarinet player in multiple FOSC youth orchestras (from age 12 to present).
+- Clarinetist in **Band’AS**, the INSA university street band (2010–2014).
+- Music teacher at Middle School Kwalé, Mayotte (2017–2018).
 
-## Works in Progress
-- **"Restorative Breaks" postcard set** — layering watercolor washes with ergonomic micro-break cues.
-- **"Motion in Slow Time" mini zine** — field notes paired with cyanotype silhouettes of workers' hands.
+## Dance
+- Dancer, teacher, and choreographer in the INSA Club Rock (French rock’n’roll partner dance).
+- Performed and developed choreography with the association (2010–2014).
+- Served as Club Rock vice-president (2012–2013).
 
-## Where to Find More
-- Portfolio snapshots on [Are.na](https://www.are.na/santi-moreno) and [Behance](https://www.behance.net/).
-- Process reels archived on [Instagram @santi.moves](https://www.instagram.com/).
-- Open-source textures shared via [GitHub repo](https://github.com/santimator/texture-palette).
+## Video
+- Designed and launched a student advertising campaign for Club Rock.
+- Created the YouTube miniseries *El Despertador*.
+
+## Artistic Links
+- [Singing in the Park](https://www.youtube.com/watch?v=GLBDMtixtTI)
+- [Club Rock — Advertising Campaign](https://www.youtube.com/watch?v=gDD2v8WgWcM)
+- [Dancing 1](https://www.youtube.com/watch?v=wdIjeL96w8o)
+- [Dancing 2](https://www.youtube.com/watch?v=sk-55NU1EmM)
+- [Dancing 3](https://www.youtube.com/watch?v=dEf5pcrm9MI)
+- [Choreography](https://www.youtube.com/watch?v=OxwGEqrniXU)
+- [Both (dance duo)](https://www.youtube.com/watch?v=26eJiA2sUao)
+- [Miniseries “El Despertador”](https://www.youtube.com/watch?v=QUq0_yov0dA)
+- [Clarinet in Prague](https://www.youtube.com/watch?v=FG8awR-oVFo)
+- [Blog](https://lasaventurasdelptitguisanti.wordpress.com)
