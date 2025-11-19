@@ -1,4 +1,36 @@
-footer p {
-    text-align: center;
-    line-height: 1.6;
+.site-footer {
+  padding: $space-3 $space-4;
+  background: $color-nav-bg;
+  color: $color-nav-text;
+}
+
+.footer-meta {
+  display: flex;
+  flex-wrap: wrap; // Keep content on one row until space runs out.
+  justify-content: center;
+  align-items: center;
+  gap: $space-2;
+  margin: 0;
+  font-weight: 500;
+}
+
+.footer-meta span {
+  display: inline-flex;
+  align-items: center;
+  gap: $space-1;
+}
+
+.footer-separator {
+  font-size: 1.5rem; // Preserve the "thick" dot appearance.
+  line-height: 1;
+}
+
+.footer-meta a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer-meta a:hover,
+.footer-meta a:focus {
+  text-decoration: underline;
 }

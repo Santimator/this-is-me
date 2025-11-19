@@ -3,10 +3,11 @@
 
 .site-nav {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; // Stack the SMJ brand atop the menu row.
   align-items: center;
   gap: $space-2;
   padding: $space-3 $space-4;
+  width: 100%;
   background: $color-nav-bg;
   box-shadow: $shadow-elevated;
 }
@@ -20,7 +21,7 @@
   text-decoration: none;
   transition: color 0.2s ease, transform 0.2s ease;
   text-align: center;
-  width: 100%;
+  width: 100%; // Span the nav width so the brand stays centered on its own row.
 
   &:hover,
   &:focus {
@@ -33,10 +34,11 @@
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: center; // Keep the tabs on one wide row until wrapping is unavoidable.
   gap: 1.5rem;
   margin: 0;
   padding: 0;
+  width: 100%;
 
   a {
     color: $color-nav-text;
