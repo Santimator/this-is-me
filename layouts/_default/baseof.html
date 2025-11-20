@@ -22,8 +22,9 @@
         {{ block "main" . }}{{ end }}
     </main>
 
+    {{ $buildDate := default now .Site.BuildDate }}{{/* Ensure a readable build timestamp is always available. */}}
     <div class="site-credits" aria-label="Site credits">
-        <p>Built with Hugo &amp; Codex.</p>
+        <p>Built with Hugo and Codex. Last build {{ $buildDate | time.Format "2006-01-02" }}.</p>
     </div>
 
     <!-- Footer -->
