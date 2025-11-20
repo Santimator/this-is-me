@@ -142,6 +142,86 @@ main.page-main {
   color: var(--text-muted);
 }
 
+.cv-section {
+  // Section bands use alt backgrounds to separate logical blocks.
+  background: var(--bg-alt);
+  padding: $space-4 0;
+}
+
+.cv-section + .cv-section {
+  margin-top: $space-3;
+}
+
+.cv-inner {
+  @extend .content-shell;
+  display: flex;
+  flex-direction: column;
+  gap: $space-3;
+}
+
+.cv-section-header {
+  display: flex;
+  flex-direction: column;
+  gap: $space-1;
+}
+
+.cv-cards {
+  display: grid;
+  gap: $space-3;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.cv-card {
+  // Card styling mirrors existing info-card but in a reusable CV context.
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  padding: $space-3;
+}
+
+.cv-card h2,
+.cv-card h3 {
+  margin: 0 0 $space-2;
+}
+
+.cv-card h4 {
+  margin: 0 0 $space-1;
+  font-size: 1.05rem;
+  color: var(--text-muted);
+}
+
+.cv-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: $space-1;
+}
+
+.cv-list li {
+  position: relative;
+  padding-left: $space-2;
+}
+
+.cv-list li::before {
+  // Subtle marker replaces heavy bullets.
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--text-muted);
+}
+
+.cv-list strong {
+  color: var(--text-main);
+}
+
+.cv-card p:last-child,
+.cv-list li:last-child {
+  margin-bottom: 0;
+}
+
 .site-credits {
   padding: $space-2 0 $space-4;
   text-align: center;
