@@ -1,26 +1,43 @@
 // _variables.scss
-// Purpose: Global design tokens for dark theme.
+// Purpose: Concise theme tokens with light/dark palettes and typography roles.
 
-// Forest-inspired palette
-$color-body-bg:    #081c12; // Deep forest green.
-$color-body-text:  #f6f0ce; // Bone/pale yellow text.
-$color-nav-bg:     #0b2618; // Slightly lighter forest band.
-$color-nav-text:   #f6f0ce; // Keep nav text bone colored.
-$color-nav-accent: #d8c47c; // Muted gold accent.
-$color-nav-hover:  #f2da9b; // Soft glow on hover.
-$color-section-a:  #0e271a; // Section shade 1.
-$color-section-b:  #0f2f1f; // Section shade 2.
-$color-section-c:  #113624; // Section shade 3.
-$color-card-bg:    rgba(255, 255, 255, 0.035); // Slightly translucent card base.
+// Theme variables rely on CSS custom properties so prefers-color-scheme can swap palettes.
+:root {
+  --bg: #f4f6f2;
+  --bg-alt: #e8eee6;
+  --card-bg: #ffffff;
+  --border: #d8e0d4;
+  --text-main: #1f2a21;
+  --text-muted: #556258;
+  --accent: #2f6f4e;
+  --tone-a: #eef3ec;
+  --tone-b: #e3ebe1;
+  --tone-c: #dde7dc;
+  --nav-bg: #f1f5f0;
+  --shadow: 0 4px 12px rgba(22, 43, 31, 0.12);
+  --font-heading: "Playfair Display", "Times New Roman", serif;
+  --font-body: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
 
-// Typography
-$font-body: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #06180f;
+    --bg-alt: #0b2417;
+    --card-bg: rgba(255, 255, 255, 0.04);
+    --border: rgba(255, 255, 255, 0.09);
+    --text-main: #f3f0e7;
+    --text-muted: #c3ccb9;
+    --accent: #b6d27a;
+    --tone-a: #0c2016;
+    --tone-b: #0f291c;
+    --tone-c: #123223;
+    --nav-bg: #0b2618;
+    --shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+  }
+}
 
-// Spacing scale
+// Spacing scale remains Sass for brevity.
 $space-1: 0.25rem;
 $space-2: 0.5rem;
 $space-3: 1rem;
 $space-4: 2rem;
-
-// Shadow presets
-$shadow-elevated: 0 4px 12px rgba(0, 0, 0, 0.6);

@@ -7,10 +7,44 @@
 
 body {
   margin: 0;
-  font-family: $font-body;
-  background: $color-body-bg;
-  color: $color-body-text;
-  line-height: 1.6;
+  font-family: var(--font-body);
+  background: var(--bg);
+  color: var(--text-main);
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading);
+  color: var(--text-main);
+  margin: 0;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+p {
+  margin: 0 0 $space-2;
+  color: var(--text-main);
+}
+
+.muted {
+  color: var(--text-muted);
 }
 
 main.page-main {
@@ -36,15 +70,15 @@ main.page-main {
 }
 
 .section-block.tone-a {
-  background: $color-section-a;
+  background: var(--tone-a);
 }
 
 .section-block.tone-b {
-  background: $color-section-b;
+  background: var(--tone-b);
 }
 
 .section-block.tone-c {
-  background: $color-section-c;
+  background: var(--tone-c);
 }
 
 .section-inner {
@@ -65,9 +99,9 @@ main.page-main {
 
 .info-card {
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  background: $color-card-bg;
-  box-shadow: $shadow-elevated;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  box-shadow: var(--shadow);
   padding: $space-3;
 }
 
@@ -90,7 +124,7 @@ main.page-main {
 }
 
 .info-line span:last-child {
-  opacity: 0.85;
+  color: var(--text-muted);
 }
 
 .plain-list {
@@ -103,5 +137,5 @@ main.page-main {
 }
 
 .section-note {
-  opacity: 0.8;
+  color: var(--text-muted);
 }

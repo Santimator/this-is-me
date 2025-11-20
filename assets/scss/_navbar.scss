@@ -6,9 +6,9 @@
   top: 0;
   z-index: 10;
   width: 100%;
-  background: $color-nav-bg;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-  box-shadow: $shadow-elevated;
+  background: var(--nav-bg);
+  border-bottom: 1px solid var(--border);
+  box-shadow: var(--shadow);
 }
 
 .nav-inner {
@@ -31,30 +31,30 @@
   font-weight: 700;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
-  color: $color-nav-accent;
+  color: var(--accent);
   text-decoration: none;
   transition: color 0.2s ease, transform 0.2s ease;
 
   &:hover,
   &:focus {
-    color: $color-nav-hover;
+    color: var(--text-main);
     transform: translateY(-1px);
   }
 }
 
 .nav-toggle {
   padding: $space-2 $space-3;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--border);
   border-radius: 6px;
-  background: $color-nav-bg; // Match bar color for a seamless toggle.
-  color: $color-nav-text;
+  background: var(--nav-bg); // Match bar color for a seamless toggle.
+  color: var(--text-main);
   font-weight: 600;
   cursor: pointer;
   transition: background 0.2s ease, transform 0.2s ease;
 
   &:hover,
   &:focus {
-    background: $color-nav-hover;
+    background: var(--tone-b);
     transform: translateY(-1px);
   }
 }
@@ -62,8 +62,8 @@
 .nav-panel {
   display: none;
   width: 100%;
-  border-top: 1px solid rgba(0, 0, 0, 0.08);
-  background: $color-nav-bg;
+  border-top: 1px solid var(--border);
+  background: var(--nav-bg);
 }
 
 .site-nav.is-open .nav-panel,
@@ -80,7 +80,7 @@
   gap: $space-2;
 
   a {
-    color: $color-nav-text;
+    color: var(--text-main);
     text-decoration: none;
     font-weight: 600;
     letter-spacing: 0.03rem;
@@ -90,13 +90,13 @@
 
     &:hover,
     &:focus {
-      color: $color-nav-hover;
-      background: rgba(0, 0, 0, 0.04);
+      color: var(--accent);
+      background: var(--tone-a);
     }
 
     &.is-active {
-      color: $color-nav-hover;
-      border-bottom: 2px solid $color-nav-hover;
+      color: var(--accent);
+      border-bottom: 2px solid var(--accent);
     }
   }
 }

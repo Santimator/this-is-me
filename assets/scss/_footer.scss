@@ -1,7 +1,7 @@
 .site-footer {
   padding: $space-3 $space-4;
-  background: $color-nav-bg;
-  color: $color-nav-text;
+  background: var(--nav-bg);
+  color: var(--text-main);
 }
 
 .footer-meta {
