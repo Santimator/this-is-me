@@ -1,0 +1,13 @@
+[[items]]
+title = "Engineering Degree in Bioinformatics and Modelling"
+institution = "INSA de Lyon"
+location = "Lyon"
+years = "2008–2014"
+details = [
+  "Master-equivalent five-year program spanning biology, computer science, mathematics, modelling, and applied research.",
+  "Bioinformatics & Modelling cycle covering linear algebra, PDEs, dynamical systems, agent-based models, and introductory AI.",
+  "Biology modules in cell biology, genetics, proteomics, phylogenetics, crystallography, drug design, MRI, and COPASI network modelling.",
+  "Computer science toolkit across C/C++, Python, R, MATLAB, MySQL, KNIME, computational biology, UI design, servers, and FIJI image processing.",
+  "Statistics training from ANOVA and PCA to Bayesian methods, Monte Carlo techniques, and regression.",
+  "Supplementary modules in cryptography, core engineering fundamentals, and the EURINSA international program."
+]

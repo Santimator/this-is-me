@@ -1,0 +1,22 @@
+{{/* Render experience cards when data exists. */}}
+{{ with .Site.Data.cv_experience.items }}
+<section class="cv-section">
+  <div class="cv-inner">
+    <div class="cv-section-header">
+      <h2>Experience</h2>
+    </div>
+    <div class="cv-cards">
+      {{ range . }}
+      <article class="cv-card">
+        <h3>{{ .role }} — {{ .company }}, {{ .location }} ({{ .years }})</h3>
+        {{ with .responsibilities }}
+        <ul class="cv-list">
+          {{ range . }}<li>{{ . }}</li>{{ end }}
+        </ul>
+        {{ end }}
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

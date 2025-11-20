@@ -1,0 +1,18 @@
+{{/* Render image gallery cards when data exists. */}}
+{{ with .Site.Data.cv_images.items }}
+<section class="cv-section">
+  <div class="cv-inner">
+    <div class="cv-section-header">
+      <h2>Gallery</h2>
+    </div>
+    <div class="cv-cards">
+      {{ range . }}
+      <figure class="cv-card cv-image-card">
+        <img src="{{ .src }}" alt="{{ .alt }}" loading="lazy">
+        {{ with .caption }}<figcaption>{{ . }}</figcaption>{{ end }}
+      </figure>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

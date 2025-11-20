@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div class="content-shell">
+  <article class="page-article">
+    <header>
+      <h1>{{ .Title }}</h1>
+    </header>
+    <section>
+      {{ .Content }}
+    </section>
+    {{/* Compose CV sections from data-backed partials. */}}
+    {{ partial "cv/experience.html" . }}
+    {{ partial "cv/education.html" . }}
+    {{ partial "cv/images.html" . }}
+    {{ partial "cv/links.html" . }}
+  </article>
+</div>
+{{ end }}

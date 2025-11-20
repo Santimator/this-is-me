@@ -1,0 +1,94 @@
+[[items]]
+role = "PMO"
+company = "Eviden"
+location = "Madrid"
+years = "2023–2025"
+responsibilities = [
+  "Power BI modelling and data analysis.",
+  "General project assistance and coordination."
+]
+
+[[items]]
+role = "Agent Credit Control"
+company = "Small World FS"
+location = "Madrid"
+years = "2022–2023"
+responsibilities = [
+  "Managed credit operations for external collaborators and led negotiation plus KPI tracking.",
+  "Designed, prototyped, and deployed semi-automated VBA/Excel solutions, including staff training.",
+  "Drove UX and workflow improvements."
+]
+
+[[items]]
+role = "Global Coordination"
+company = "FOSC"
+location = "Madrid"
+years = "2018–2021"
+responsibilities = [
+  "Coordinated a multi-project environment with effort estimation, resource allocation, and conflict resolution.",
+  "Led activity planning, definition, and operational support while engaging stakeholders."
+]
+
+[[items]]
+role = "Music Teacher"
+company = "French Government"
+location = "Mayotte"
+years = "2017–2018"
+responsibilities = [
+  "Managed classes, prepared and delivered course content, and evaluated students."
+]
+
+[[items]]
+role = "Cellular Modelling"
+company = "FIAS"
+location = "Frankfurt"
+years = "2016–2017"
+responsibilities = [
+  "Modelled migration of T. brucei and validated data with biology lab partners.",
+  "Conducted bibliographic research."
+]
+
+[[items]]
+role = "PhD Student (unfinished)"
+company = "University of Würzburg / Goethe University Frankfurt"
+location = "Germany"
+years = "2016–2017"
+responsibilities = [
+  "Researched modelling and simulation of cell migration over an eight-month period."
+]
+
+[[items]]
+role = "EEG Data Analysis"
+company = "Laboratoire Dynamique du Langage"
+location = "Lyon"
+years = "2015"
+responsibilities = [
+  "Studied interactions between tactile stimuli and language processing using ERPLab in MATLAB."
+]
+
+[[items]]
+role = "Quality Testing Intern"
+company = "The CoSMo Company"
+location = "Lyon"
+years = "2014"
+responsibilities = [
+  "Automated code analysis tooling, evaluated state-of-the-art analysers, and built Qt/C++ test bricks."
+]
+
+[[items]]
+role = "Neural Modelling Intern"
+company = "ZI Mannheim"
+location = "Germany"
+years = "2013"
+responsibilities = [
+  "Ported a prefrontal cortex model from C++ to the Python-based NEST environment and learned multithreading."
+]
+
+[[items]]
+role = "Manual Worker"
+company = "Airbus"
+location = "France"
+years = "2009"
+responsibilities = [
+  "Assisted with assembly of A319/A320 aircraft pylons and gained hands-on workshop experience."
+]

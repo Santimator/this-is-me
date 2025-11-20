@@ -1,0 +1,22 @@
+{{/* Render education cards when data exists. */}}
+{{ with .Site.Data.cv_education.items }}
+<section class="cv-section">
+  <div class="cv-inner">
+    <div class="cv-section-header">
+      <h2>Education</h2>
+    </div>
+    <div class="cv-cards">
+      {{ range . }}
+      <article class="cv-card">
+        <h3>{{ .title }} — {{ .institution }}, {{ .location }} ({{ .years }})</h3>
+        {{ with .details }}
+        <ul class="cv-list">
+          {{ range . }}<li>{{ . }}</li>{{ end }}
+        </ul>
+        {{ end }}
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,19 @@
+{{/* Render external links when data exists. */}}
+{{ with .Site.Data.cv_links.items }}
+<section class="cv-section">
+  <div class="cv-inner">
+    <div class="cv-section-header">
+      <h2>Links</h2>
+    </div>
+    <div class="cv-cards">
+      {{ range . }}
+      <article class="cv-card">
+        <h3>{{ .label }}</h3>
+        {{ with .description }}<p>{{ . }}</p>{{ end }}
+        {{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener">Visit</a>{{ end }}
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
