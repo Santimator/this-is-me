@@ -39,8 +39,8 @@
   padding: $space-2 $space-3;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 6px;
-  background: $color-nav-accent;
-  color: $color-nav-bg;
+  background: $color-nav-bg; // Match bar color for a seamless toggle.
+  color: $color-nav-text;
   font-weight: 600;
   cursor: pointer;
   transition: background 0.2s ease, transform 0.2s ease;
