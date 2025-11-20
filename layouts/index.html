@@ -14,5 +14,10 @@
             <p>This website brings all of that together—my background, my projects, my interests, and the odd things I like to explore. It’s a place to gather everything I’ve done so far, and everything I’m still becoming.</p>
         </section>
     </article>
+    {{/* Homepage-only build stamp. */}}
+    {{ $buildDate := default now .Site.Params.buildDate }}
+    <div class="site-credits" aria-label="Site credits">
+        <p>Built with Hugo and Codex. Last build {{ $buildDate | time.Format "2006-01-02" }}.</p>
+    </div>
 </div>
 {{ end }}
