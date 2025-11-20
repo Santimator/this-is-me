@@ -1,27 +1,28 @@
 .site-footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
   padding: $space-3 $space-4;
   background: var(--nav-bg);
   color: var(--text-main);
+  text-align: center;
+  font-size: 0.95rem; // Slightly smaller than body text for subtlety.
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.08);
+  z-index: 10;
 }
 
 .footer-meta {
   display: flex;
-  flex-wrap: wrap; // Keep content on one row until space runs out.
   justify-content: center;
   align-items: center;
   gap: $space-2;
   margin: 0;
-  font-weight: 500;
-}
-
-.footer-meta span {
-  display: inline-flex;
-  align-items: center;
-  gap: $space-1;
+  font-weight: 600;
 }
 
 .footer-separator {
-  font-size: 1.5rem; // Preserve the "thick" dot appearance.
+  font-size: 1.2rem;
   line-height: 1;
 }
 
