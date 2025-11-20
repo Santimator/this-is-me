@@ -1,11 +1,13 @@
 {{ define "main" }}
-<article>
-    <header>
-        <h1>{{ .Title }}</h1>
-    </header>
+<div class="content-shell">
+    <article class="page-article">
+        <header>
+            <h1>{{ .Title }}</h1>
+        </header>
 
-    <section>
-        {{ .Content }}
-    </section>
-</article>
+        <section>
+            {{ .Content }}
+        </section>
+    </article>
+</div>
 {{ end }}

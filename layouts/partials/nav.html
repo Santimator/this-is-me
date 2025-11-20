@@ -1,19 +1,24 @@
 <nav class="site-nav" aria-label="Primary">
-    <div class="nav-bar">
-        {{/* Brand stays left for all pages. */}}
-        <a class="nav-brand" href="{{ .Site.Home.Permalink }}">SMJ</a>
-        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
-            <span class="sr-only">Toggle menu</span>
-            🤗
-        </button>
+    <div class="nav-inner content-shell">
+        <div class="nav-branding">
+            {{/* Emoji stays bound to the name for a single logo unit. */}}
+            <a class="nav-brand" href="{{ .Site.Home.Permalink }}">🌲 SMJ</a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+                <span class="sr-only">Toggle menu</span>
+                ☰
+            </button>
+        </div>
+        {{ with .Site.Menus.main }}
+        <div class="nav-panel" id="nav-menu" aria-hidden="true">
+            <ul class="nav-menu">
+                {{ $current := $ }}
+                {{ range . }}
+                <li>
+                    <a class="{{ if or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}is-active{{ end }}" href="{{ .URL | relURL }}">{{ .Name }}</a>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+        {{ end }}
     </div>
-    {{ with .Site.Menus.main }}
-    <div class="nav-panel" id="nav-menu" aria-hidden="true">
-        <ul class="nav-menu">
-            {{ range . }}
-            <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-            {{ end }}
-        </ul>
-    </div>
-    {{ end }}
 </nav>
