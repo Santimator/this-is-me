@@ -1,5 +1,9 @@
-{{/* Render external links when data exists. */}}
-{{ with .Site.Data.cv_links.items }}
+{{/* Generic link renderer keyed by page to keep placeholders per tab. */}}
+{{- $page := .page -}}
+{{- $key := .key | default ($page.Params.linksKey | default (replace $page.File.TranslationBaseName "-" "_")) -}}
+{{- $dataset := index $page.Site.Data.cv_links $key -}}
+{{ with $dataset }}
+{{ with .items }}
 <section class="cv-section">
   <div class="cv-inner">
     <div class="cv-section-header">
@@ -16,4 +20,5 @@
     </div>
   </div>
 </section>
+{{ end }}
 {{ end }}

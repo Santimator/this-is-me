@@ -5,12 +5,13 @@
       <h1>{{ .Title }}</h1>
     </header>
 
-    {{/* Intro card aligns opening copy across tabs. */}}
+    {{/* Intro card presents the academic overview above structured entries. */}}
     <section class="intro-card">
       {{ .Content }}
     </section>
 
-    {{ partial "cv/links.html" (dict "page" .) }}
+    {{ partial "cv/education.html" . }}
+    {{ partial "cv/links.html" (dict "page" . "key" "education") }}
   </article>
 </div>
 {{ end }}

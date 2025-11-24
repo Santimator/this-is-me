@@ -1,39 +1,70 @@
-[[items]]
+[experience]
+[[experience.items]]
+label = "Project portfolio"
+description = "Placeholder for recent roles and case studies."
+url = "https://example.com/experience"
+
+[education]
+[[education.items]]
+label = "Academic transcript"
+description = "Link to syllabi, grades, or course details."
+url = "https://example.com/education"
+
+[personal_development]
+[[personal_development.items]]
+label = "Practice log"
+description = "Example tracker for Taichi, Qigong, or facilitation notes."
+url = "https://example.com/personal-development"
+
+[other_interests]
+[[other_interests.items]]
+label = "Language portfolio"
+description = "Sample repository for language practice and certifications."
+url = "https://example.com/other-interests"
+
+[astrology]
+[[astrology.items]]
+label = "Sky notes"
+description = "Placeholder for chart readings or reflections."
+url = "https://example.com/my-sky"
+
+[the_artist]
+[[the_artist.items]]
 label = "Singing in the Park"
 description = "Street performance clip."
 url = "https://www.youtube.com/watch?v=GLBDMtixtTI"
 
-[[items]]
+[[the_artist.items]]
 label = "Club Rock — Advertising Campaign"
 description = "Student-produced promotional video for the dance association."
 url = "https://www.youtube.com/watch?v=gDD2v8WgWcM"
 
-[[items]]
+[[the_artist.items]]
 label = "Dance Highlights"
 description = "Selected social dance recordings."
 url = "https://www.youtube.com/watch?v=wdIjeL96w8o"
 
-[[items]]
+[[the_artist.items]]
 label = "Choreography Showcase"
 description = "Original choreography captured on video."
 url = "https://www.youtube.com/watch?v=OxwGEqrniXU"
 
-[[items]]
+[[the_artist.items]]
 label = "Both (Dance Duo)"
 description = "Partner routine featuring a choreographed duo."
 url = "https://www.youtube.com/watch?v=26eJiA2sUao"
 
-[[items]]
+[[the_artist.items]]
 label = "Mini-series: El Despertador"
 description = "Short-form narrative mini-series created for YouTube."
 url = "https://www.youtube.com/watch?v=QUq0_yov0dA"
 
-[[items]]
+[[the_artist.items]]
 label = "Clarinet in Prague"
 description = "Travel performance while visiting Prague."
 url = "https://www.youtube.com/watch?v=FG8awR-oVFo"
 
-[[items]]
+[[the_artist.items]]
 label = "Blog"
 description = "Personal blog chronicling projects and travels."
 url = "https://lasaventurasdelptitguisanti.wordpress.com"

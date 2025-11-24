@@ -4,14 +4,14 @@
     <header>
       <h1>{{ .Title }}</h1>
     </header>
-    <section>
+
+    {{/* Intro card keeps the page summary visible above the data-backed cards. */}}
+    <section class="intro-card">
       {{ .Content }}
     </section>
-    {{/* Compose CV sections from data-backed partials. */}}
+
     {{ partial "cv/experience.html" . }}
-    {{ partial "cv/education.html" . }}
-    {{ partial "cv/images.html" . }}
-    {{ partial "cv/links.html" . }}
+    {{ partial "cv/links.html" (dict "page" . "key" "experience") }}
   </article>
 </div>
 {{ end }}

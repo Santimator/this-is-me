@@ -67,6 +67,19 @@ main.page-main {
   gap: $space-3;
 }
 
+// Shared intro card for the lead blurb on each page.
+.intro-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+  padding: $space-3;
+  display: flex;
+  flex-direction: column;
+  gap: $space-2;
+}
+
 .cv-section {
   // Section bands use alt backgrounds to separate logical blocks.
   background: var(--bg-alt);
@@ -156,8 +169,8 @@ main.page-main {
 
 // Brief styling for highlighted intro notes.
 .quote-note {
-  display: block; // Allow margin to apply cleanly.
-  color: #7a4f9c;
+  display: block;
+  color: var(--accent);
   font-style: italic;
-  margin: 0 0 $space-2;
+  margin: 0;
 }
