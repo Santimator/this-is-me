@@ -153,3 +153,11 @@ main.page-main {
   font-size: 0.9rem;
   color: var(--text-muted);
 }
+
+// Brief styling for highlighted intro notes.
+.quote-note {
+  display: block; // Allow margin to apply cleanly.
+  color: #7a4f9c;
+  font-style: italic;
+  margin: 0 0 $space-2;
+}
