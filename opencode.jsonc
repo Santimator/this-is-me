@@ -1,0 +1,19 @@
+{
+  "$schema": "...",
+  "mcp": {
+    "local-memory": {
+      "type": "local",
+      "enabled": true,
+      "command": [
+        "npx",
+        "local-memory",
+        "--mcp",
+        "--config",
+        "/home/devuser/project/mcp-memory/config.yaml"
+      ],
+      "environment": {
+        "LOCAL_MEMORY_DIR": "/home/devuser/project/mcp-memory"
+      }
+    }
+  }
+}

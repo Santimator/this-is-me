@@ -13,5 +13,7 @@ Thumbs.db
 *.swp
 *.swo
 
-# Memory database
-mcp-memory/
+# MCP Memory - ignore database files but keep config
+mcp-memory/*.db
+mcp-memory/*.db-*
+mcp-memory/*.log
